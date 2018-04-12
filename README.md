@@ -33,7 +33,7 @@ _input_: Takes single text-file or directory of text-files as command line argum
 _output_: bmp image at the path: `spark-2.3.0-bin-hadoop2.7/bin/myword.bmp`
 
 ##### **Prerequisites:**
-1) wordcloud
+1) [wordcloud](https://github.com/amueller/word_cloud)
 
 ##### **Installing wordcloud:**
 Install wordcloud using pip
