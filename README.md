@@ -24,7 +24,7 @@ _output_: min & max printed on the console
 
 
 #### 2) `sparkWordCloud.py`: 
-removes stop-words from all text files and creates wordcloud image. 
+removes stop-words from all text files using spark's ML feature and creates wordcloud image. 
 
 _data_: sample data is provided in testdata folder
 
