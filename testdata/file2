@@ -1,0 +1,16 @@
+ A classifier is a machine learning tool that will take data items and place them into one of k classes. A probabilistic classifier, like this one, can also give a probability distribution over the class assignment for a data item. This software is a Java implementation of a maximum entropy classifier. Maximum entropy models are otherwise known as softmax classifiers and are essentially equivalent to multiclass logistic regression models (though parameterized slightly differently, in a way that is advantageous with sparse explanatory feature vectors). In other words, this is the same basic technology that you're usually getting in various of the cloud-based machine learning APIs (Amazon, Google, ...) The classification method is described in:
+
+    Christopher Manning and Dan Klein. 2003. Optimization, Maxent Models, and Conditional Estimation without Magic. Tutorial at HLT-NAACL 2003 and ACL 2003. [pdf slides] [pdf handouts] 
+
+Version 2 of the classifier was developed by Anna Rafferty, Alex Kleeman, Jenny Finkel, and Christopher Manning.
+
+The software requires requires Java (now Java 8). As well as API access, the program includes an easy-to-use command-line interface, ColumnDataClassifier, for building models. Its features are especially suited to building models over text data, but it also supports numeric variables.
+
+Licensing. The Stanford Classifier is available for download, licensed under the GNU General Public License (v2 or later). Source is included. The Stanford Classifier code is dual licensed (in a similar manner to MySQL, etc.). Open source licensing is under the full GPL, which allows many free uses. For distributors of proprietary software, commercial licensing is available. If you don't need a commercial license, but would like to support maintenance of these tools, we welcome gift funding.
+
+The download is a 9.6 MB zipped file. If you unpack that file, you should have everything needed, including example files and documentation. Start by reading the README.txt file. Send any questions or feedback to java-nlp-support@lists.stanford.edu.
+Introduction
+An introduction to the classifier and some examples of its use are available on our Wiki page. You can also look at the javadoc for ColumnDataClassifier.
+Extensions: Packages by others using the Stanford Classifier
+
+    JavaScript/npm: Milos Bejda has written stanford-classifier Nodejs wrapper. Source on github.
